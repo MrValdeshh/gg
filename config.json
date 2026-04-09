@@ -8,18 +8,19 @@
     {
       "port": 8080,
       "listen": "0.0.0.0",
-      "protocol": "trojan",
+      "protocol": "vless",
       "settings": {
         "clients": [
           {
-            "password": "MrValdez"
+            "id": "69f3a7b2-6d44-4e91-8a3f-2b7e5d9c1f69"
           }
-        ]
+        ],
+        "decryption": "none"
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/MrValdez/Trojan"
+          "path": "/MrValdez@Vless"
         }
       }
     },
@@ -30,13 +31,13 @@
       "protocol": "shadowsocks",
       "settings": {
         "method": "aes-256-gcm",
-        "password": "MrValdez123",
+        "password": "MrValdez@2b7e5d9c1f69",
         "network": "tcp"
       },
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/MrValdez/Shadowsocks"
+          "path": "/MrValdez@Shadowsocks"
         }
       }
     }
