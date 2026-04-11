@@ -8,6 +8,13 @@
     {
       "port": 8080,
       "listen": "0.0.0.0",
+      "protocol": "http",
+      "settings": {}
+    },
+
+    {
+      "port": 8080,
+      "listen": "0.0.0.0",
       "protocol": "trojan",
       "settings": {
         "clients": [
