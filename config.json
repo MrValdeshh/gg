@@ -142,7 +142,7 @@
     },
     {
       "listen": "0.0.0.0",
-      "port": 8087,
+      "port": 8080,
       "protocol": "shadowsocks",
       "tag": "ss-hu",
       "settings": {
